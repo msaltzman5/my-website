@@ -4,20 +4,21 @@ import "./NavigationBar.css";
 import { Box, AppBar, Toolbar, Typography } from "@mui/material";
 
 export default function NavigationBar() {
-  return (
-    <nav>
-        <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/work">Work Experinces</Link>
-        </li>
-        <li>
-          <Link to="/class">Class projects</Link>
-        </li>
-        </ul>
-    </nav>
+    return;
+  //return (
+    // <nav>
+    //     <ul>
+    //     <li>
+    //       <Link to="/">Home</Link>
+    //     </li>
+    //     <li>
+    //       <Link to="/work">Work Experinces</Link>
+    //     </li>
+    //     <li>
+    //       <Link to="/class">Class projects</Link>
+    //     </li>
+    //     </ul>
+    // </nav>
     // <Box sx={{ flexGrow: 1 }}>
     //   <AppBar position="static">
     //     <Toolbar sx={{ background: green }}>
@@ -31,5 +32,5 @@ export default function NavigationBar() {
     //     </Toolbar>
     //   </AppBar>
     // </Box>
-  )
+  //)
 }
