@@ -1,7 +1,9 @@
 
 
 function FamilyAndFriends() {
-    return;
+    return (
+        <p>FamilyAndFriends</p>
+    )
 }
 
 export default FamilyAndFriends;

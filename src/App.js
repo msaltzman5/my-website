@@ -1,49 +1,31 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-// Import your page components
-import Home from './Components/Home/Home.js';
-import Work from './Components/Work/Work.js';
-import NavigationBar from "./Components/NavigationBar/NavigationBar.js";
-
-// import Class from './Components/Class/Class.js';
-// import Extracurricular from './Components/Extracurricular/Extracurricular.js';
-// import FamilyAndFriends from './Components/FamilyAndFriends/FamilyAndFriends.js';
-
+// Importing components
+import Home from './Components/Home/Home';
+import Work from './Components/WorkExperiences/WorkExperiences';
+import NavigationBar from './Components/NavigationBar/NavigationBar';
+import Class from './Components/ClassProjects/ClassProjects';
+import Extracurriculars from './Components/Extracurriculars/Extracurriculars';
+import FamilyAndFriends from './Components/FamilyAndFriends/FamilyAndFriends';
 
 function App() {
- return (
-  <BrowserRouter>
+  return (
+    <BrowserRouter>
+
       <NavigationBar />
 
       <Routes>
-        <Route
-          path="/"
-          element={<Home />}
-        />
-
-        <Route
-        path="/work"
-        element={<Work/>}
-        />
+        <Route path="/" element={<Home />}/>
+        <Route path="/workexperiences" element={<Work/>}/>
+        <Route path="/classprojects" element={<Class/>} />
+        <Route path="/extracurriculars" element={<Extracurriculars/>} />
+        <Route path="/familyandfriends" element={<FamilyAndFriends/>} />
       </Routes>
-    </BrowserRouter>
- )
-}
 
-// function App() {
-//   return (
-//     <Router>
-//       <Switch>
-//         <Route exact path="/" component={Home} />
-//         <Route path="/work" component={Work} />
-//         <Route path="/class" component={Class} />
-//         <Route path="/extracurricular" component={Extracurricular} />
-//         <Route path="/familyandfriends" component={FamilyAndFriends} />
-//       </Switch>
-//     </Router>
-//   );
-// }
+    </BrowserRouter>
+  )
+}
 
 export default App;
