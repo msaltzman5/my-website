@@ -4,6 +4,7 @@ import './App.css';
 
 // Importing components
 import Home from './Components/Home/Home';
+import Name from './Components/Name/Name';
 import Work from './Components/WorkExperiences/WorkExperiences';
 import NavigationBar from './Components/NavigationBar/NavigationBar';
 import Class from './Components/ClassProjects/ClassProjects';
@@ -13,6 +14,8 @@ import FamilyAndFriends from './Components/FamilyAndFriends/FamilyAndFriends';
 function App() {
   return (
     <BrowserRouter>
+
+      <Name />
 
       <NavigationBar />
 

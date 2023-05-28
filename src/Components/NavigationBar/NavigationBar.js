@@ -8,9 +8,6 @@ export default function NavigationBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar sx={{ background: green }}>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Malcolm Saltzman's Website
-          </Typography>
           <div className="navigation-bar-links">
             <Link color="inherit" href="/" underline="none">Home</Link>
             <Link color="inherit" href="/workexperiences" underline="none">Work Experiences</Link>

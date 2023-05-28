@@ -1,6 +1,8 @@
 .navigation-bar-links {
     display: flex;
-    gap: 2rem;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
   }
   
   /* .MuiToolbar-root {
