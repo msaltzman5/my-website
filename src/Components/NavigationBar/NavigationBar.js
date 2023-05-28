@@ -1,7 +1,7 @@
 //import { Link } from 'react-router-dom';
 import { green } from "@mui/material/colors";
 import "./NavigationBar.css";
-import { Box, AppBar, Toolbar, Typography, Link } from "@mui/material";
+import { Box, AppBar, Toolbar, Link } from "@mui/material";
 
 export default function NavigationBar() {
   return (

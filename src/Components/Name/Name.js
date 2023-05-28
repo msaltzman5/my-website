@@ -1,6 +1,6 @@
-import { green } from "@mui/material/colors";
+//import { green } from "@mui/material/colors";
 import "./Name.css";
-import { Box, AppBar, Toolbar, Typography, Link } from "@mui/material";
+import { Box, AppBar, Typography } from "@mui/material";
 
 function Name() {
     return (
