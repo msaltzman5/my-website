@@ -1,0 +1,30 @@
+p {
+    text-align: center;
+}
+
+#caption {
+    padding-bottom: 10px;
+}
+
+/* .MuiButton-root {
+    background-color: tan;
+    margin-top: 5px;
+    width: 100%;
+} */
+
+.description {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.preview {
+    margin-top: 25px;
+    border-radius: 25px;
+    width: 50%;
+    outline-width: 7.5px;
+    outline-style: outset;
+    outline-color: black;
+}
