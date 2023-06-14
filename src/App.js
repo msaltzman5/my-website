@@ -21,7 +21,7 @@ export function debugging() {
 
 function App() {
   return (
-    <div>
+    <div id="App">
 
       <Name />
       <NavigationBar />
