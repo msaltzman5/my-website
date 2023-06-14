@@ -1,9 +1,12 @@
+import {debugging} from '../../App.js'
 
-
-function Work() {
+function WorkExperiences() {
     return (
-        <p>work</p>
+        <div id='work-experiences'>
+            <h1>Work Experiences</h1>
+            {debugging()}
+        </div>
     )
 }
 
-export default Work;
+export default WorkExperiences;
