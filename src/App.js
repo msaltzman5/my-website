@@ -2,11 +2,10 @@
 import './App.css';
 
 // Importing components
-import Name from './Components/Name/Name';
+// import Name from './Components/Name/Name';
 import NavigationBar from './Components/NavigationBar/NavigationBar';
 import Home from './Components/Home/Home';
-import Work from './Components/WorkExperiences/WorkExperiences';
-import Class from './Components/ClassProjects/ClassProjects';
+import TechnicalExperience from './Components/TechnicalExperience/TechnicalExperience';
 import Extracurriculars from './Components/Extracurriculars/Extracurriculars';
 import FamilyAndFriends from './Components/FamilyAndFriends/FamilyAndFriends';
 
@@ -22,14 +21,14 @@ export function debugging() {
 function App() {
   return (
     <div id="App">
-
-      <Name />
-      <NavigationBar />
-      <Home/>
-      <Work/>
-      <Class/>
-      <Extracurriculars/>
-      <FamilyAndFriends/>
+      {/* <Name/> */}
+      <NavigationBar/>
+      <div className="content">
+        <Home/>
+        <TechnicalExperience/>
+        <Extracurriculars/>
+        <FamilyAndFriends/>
+      </div>
 
       {/* <Routes>
         <Route path="/" element={<Home />}/>
