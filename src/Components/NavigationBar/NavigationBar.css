@@ -24,3 +24,7 @@
     margin-top: 25px; /* Adjust this value for smaller screens */
   }
 }
+
+.content {
+  padding-top: 70px; /* Adjust this value according to your AppBar's height */
+}

@@ -2,29 +2,16 @@ p {
     text-align: center;
 }
 
-#caption {
-    padding-bottom: 10px;
+.me {
+    width: 200px;
+    height: 300px;
 }
 
-/* .MuiButton-root {
-    background-color: tan;
-    margin-top: 5px;
-    width: 100%;
-} */
-
-.description {
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+.left-about-me {
+    flex:1;
 }
 
-.preview {
-    margin-top: 25px;
-    border-radius: 25px;
-    width: 50%;
-    outline-width: 7.5px;
-    outline-style: outset;
-    outline-color: black;
+.right-about-me {
+    flex-shrink: 0; /* Prevents it from shrinking */
+    margin-left: 20px; /* Adjust margin as needed */
 }

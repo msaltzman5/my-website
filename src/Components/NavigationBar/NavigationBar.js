@@ -6,23 +6,8 @@ import { Box, AppBar, Toolbar, Button } from "@mui/material";
 import {Link as ScrollLink} from "react-scroll"
 
 export default function NavigationBar() {
-  // const [isScrolled, setIsScrolled] = useState(false);
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const scrollTop = window.scrollY || document.documentElement.scrollTop;
-  //     setIsScrolled(scrollTop > 150);
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
-
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1}}>
       <AppBar position="fixed">
         <Toolbar sx={{ background: green }}>
           <div className="name-link">
