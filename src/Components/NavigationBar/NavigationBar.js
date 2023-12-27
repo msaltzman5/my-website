@@ -9,7 +9,7 @@ export default function NavigationBar() {
   return (
     <Box sx={{ flexGrow: 1}}>
       <AppBar position="fixed">
-        <Toolbar sx={{ background: green }}>
+        <Toolbar classname="toolbar" sx={{ background: green }}>
           <div className="name-link">
             Malcolm Saltzman
           </div>
