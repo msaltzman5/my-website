@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.content > div:not(:last-child) {
+  margin-bottom: 10px; /* Adjust the value to set the desired space */
+}
+
+p {
+  text-align: center;
+}

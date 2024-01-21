@@ -1,0 +1,16 @@
+.info {
+  text-align: left;
+}
+
+.left-about-me-tech {
+  flex:1;
+}
+
+.right-about-me {
+  flex-shrink: 0; /* Prevents it from shrinking */
+  margin-left: 20px; /* Adjust margin as needed */
+}
+
+.MyRacePass-p {
+  text-align: left;
+}
