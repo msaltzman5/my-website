@@ -1,4 +1,4 @@
-// import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 // Importing components
@@ -8,6 +8,7 @@ import Home from './Components/Home/Home';
 import TechnicalExperience from './Components/TechnicalExperience/TechnicalExperience';
 import Extracurriculars from './Components/Extracurriculars/Extracurriculars';
 import FamilyAndFriends from './Components/FamilyAndFriends/FamilyAndFriends';
+import Valentine from './Components/Valentine/Valentine';
 
 export function debugging() {
   let p = []
@@ -22,6 +23,19 @@ function App() {
   return (
     <div id="App">
       {/* <Name/> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" exact Component={ContentWrapper}/>
+          <Route path="/valentine" element={<Valentine/>}/>
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
+}
+
+const ContentWrapper = () => {
+  return (
+    <div>
       <NavigationBar/>
       <div className="content">
         <Home/>
@@ -29,17 +43,9 @@ function App() {
         <Extracurriculars/>
         <FamilyAndFriends/>
       </div>
-
-      {/* <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/workexperiences" element={<Work/>}/>
-        <Route path="/classprojects" element={<Class/>} />
-        <Route path="/extracurriculars" element={<Extracurriculars/>} />
-        <Route path="/familyandfriends" element={<FamilyAndFriends/>} />
-      </Routes> */}
-
     </div>
-  )
+  );
 }
+
 
 export default App;

@@ -1,0 +1,8 @@
+.valentine-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 108, 248);
+}
