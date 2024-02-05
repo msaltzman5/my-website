@@ -1,8 +1,35 @@
 .valentine-content {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(247, 143, 170);
+}
+
+.bear-giving-heart {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
-  background-color: rgb(255, 108, 248);
+  height: 55vh;
+}
+
+.bear-giving-heart-gif {
+  max-width: 15%;
+  height: auto;
+  align-self: flex-end;
+}
+
+.valentine-buttons-container {
+  display: flex;
+}
+
+.no-button {
+  position: absolute;
+  top: 65vh;
+  left: 40vw;
+}
+
+.yes-button {
+  position: absolute;
+  top: 65vh;
+  left: 58vw; 
 }
