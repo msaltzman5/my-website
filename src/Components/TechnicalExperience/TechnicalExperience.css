@@ -11,6 +11,10 @@
   margin-left: 20px; /* Adjust margin as needed */
 }
 
-.MyRacePass-p {
+.MyRacePass-content p {
+  text-align: left;
+}
+
+.hyland-software-content p {
   text-align: left;
 }
