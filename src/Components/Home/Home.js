@@ -15,7 +15,7 @@ function Home() {
           <h1 className="about-me">About Me</h1>
           <p>
             Hi! My name is Malcolm Saltzman and I'm a Computer Science major and
-            a Mathematics and Business minor at the University of 
+            a Business minor at the University of 
             Nebraska-Lincoln. I built this website to improve my technical skills
             and document what I have going on in my life. 
           </p>
