@@ -20,8 +20,8 @@ export default function NavigationBar() {
             <ScrollLink to="technical-experience" smooth={true} duration={1000} offset={-75}>
               <Button color="inherit" underline="none" sx={{"&:hover": {color: "orange"}}}>Technical Experience</Button>
             </ScrollLink>
-            <ScrollLink to="extracurriculars" smooth={true} duration={1000} offset={-75}>
-              <Button color="inherit" underline="none" sx={{"&:hover": {color: "orange"}}}>Extracurriculars</Button>
+            <ScrollLink to="hobbies" smooth={true} duration={1000} offset={-75}>
+              <Button color="inherit" underline="none" sx={{"&:hover": {color: "orange"}}}>Hobbies</Button>
             </ScrollLink>
             <ScrollLink to="family-and-friends" smooth={true} duration={1000} offset={-75}>
               <Button color="inherit" underline="none" sx={{"&:hover": {color: "orange"}}} scroll="smooth">Family And Friends</Button>

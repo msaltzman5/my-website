@@ -6,7 +6,7 @@ import './App.css';
 import NavigationBar from './Components/NavigationBar/NavigationBar';
 import Home from './Components/Home/Home';
 import TechnicalExperience from './Components/TechnicalExperience/TechnicalExperience';
-import Extracurriculars from './Components/Extracurriculars/Extracurriculars';
+import Extracurriculars from './Components/Hobbies/Hobbies';
 import FamilyAndFriends from './Components/FamilyAndFriends/FamilyAndFriends';
 
 export function debugging() {

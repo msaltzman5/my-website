@@ -6,7 +6,7 @@ function TechnicalExperience() {
   return (
     <div id='technical-experience' className='technical-experience-content'>
       <Box id="technical-experience-box" sx={{ p: 2, borderRadius: 4, bgcolor: '#FFC1C3', display: "flex" }}>
-        <div className="left-about-me-tech">
+        <div className="left-tech">
           <h1 className="technical-experience-heading">Technical Experience</h1>
           <h1 className="job-experience-heading">Job Experience</h1>
           <p className="info">All of my relevant experiences can be found on my <a href={resume} target="_blank" rel="noreferrer">resume</a>,
@@ -31,9 +31,9 @@ function TechnicalExperience() {
               clients were having. If bugs were found or the issue needed to be escalated, we would pass our ticket on to the full-time employees.
             </p>
           </div>
-          <div className="other-experiences-content">
+          <div className="projects-content">
+            <h1 className="projects-heading">Projects</h1>
             <div className="scoular">
-              <h1 className="other-experiences-heading">Other Experiences</h1>
               <h2>Scoular - Design Studio</h2>
               <p>
                 This past school-year, I was fortunate enough to be selected to represent the UNL Raikes School Design Studio as an Associate. My company sponsor was <a href="https://www.scoular.com/" target="_blank" rel="noreferrer">Scoular</a>,
@@ -42,11 +42,14 @@ function TechnicalExperience() {
                 feedback from Scoular instead of constantly having to text, email, or call Scoular employees to confirm delivery changes.
               </p>
               <p>
-                Additionally, my group wrote an honors thesis regarding our project and I will link that when it becomes publically available. 
+                Additionally, my group wrote an honors thesis regarding our project and I will link that when it becomes publically available.
               </p>
             </div>
-            <div className="21-vision">
-              <h2><a href="https://github.com/benjaminkcook/21Vision" target="_blank" rel="noreferrer">21 Vision</a> - <a href="https://unlcornhacks.com/" target="_blank" rel="noreferrer">CornHacks</a></h2>
+          </div>
+          <div id="personal-projects" className="personal-projects-content">
+          <h1 id="personal-projects-heading" className="personal-projects-heading">Personal Projects</h1>
+            <div id="21-vision" className="21-vision">
+              <h2 id="21-vision-heading"><a href="https://github.com/benjaminkcook/21Vision" target="_blank" rel="noreferrer">21 Vision</a> - <a href="https://unlcornhacks.com/" target="_blank" rel="noreferrer">CornHacks</a></h2>
               <p>
                 The prompt for this year's projects was "Beat the Odds". To fulfil this prompt, we wanted to create a camera extension that could be used to "count cards" at a blackjack table.
                 We developed a machine learning model using <a href="https://www.v7labs.com/blog/yolo-object-detection" target="_blank" rel="noreferrer">Yolo</a> that could recognize each individual card when shown to a camera. We had the "count" follow standard card-counting rules and the
