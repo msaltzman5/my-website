@@ -15,10 +15,10 @@ function TechnicalExperience() {
           <div className="MyRacePass-content">
             <h2>MyRacePass</h2>
             <p>
-              I just finished my internship at <a href="https://www.myracepass.com/" target="_blank" rel="noreferrer">MyRacePass</a> where I
+              I just finished my internship at <a href="https://www.myracepass.com/" target="_blank" rel="noreferrer">MyRacePass</a>, where I
               was a software developer intern. I really enjoyed working there and I am so appreciative of the opportunity they gave me.
               My main priorities included maintaining the code base, researching and developing new features, and overall contributing to the
-              team where ever they need me. My favorite projects I worked on where implementing a feature for customers to text their tickets
+              team where ever they needed me. My favorite projects I worked on where implementing a feature for customers to text their tickets
               to their phone number and creating a V1 of <a href="https://www.myracepass.com/latest-news/article/152609/myracepass-changes-the-game-again-with-mrp-audio" target="_blank" rel="noreferrer">MRP Audio</a>.
             </p>
           </div>
@@ -32,14 +32,27 @@ function TechnicalExperience() {
             </p>
           </div>
           <div className="other-experiences-content">
-            <h1 className="other-experiences-heading">Other Experiences</h1>
-            <h2>Scoular - Design Studio</h2>
-            <p>
-              This past school-year, I was fortunate enough to be selected to represent the UNL Raikes School Design Studio as an Associate. My company sponsor was <a href="https://www.scoular.com/" target="_blank" rel="noreferrer">Scoular</a>,
-              an agriculture logistics compnay. We were assigned the task of streamlining the communication between Scoular's employees and it's customers by developing
-              an intuative web application. To do this, we made a PowerPages application where customers could input their desired delivery schedule and easily recieve
-              feedback from Scoular instead of constantly having to text, email, or call Scoular employees to confirm delivery changes. 
-            </p>
+            <div className="scoular">
+              <h1 className="other-experiences-heading">Other Experiences</h1>
+              <h2>Scoular - Design Studio</h2>
+              <p>
+                This past school-year, I was fortunate enough to be selected to represent the UNL Raikes School Design Studio as an Associate. My company sponsor was <a href="https://www.scoular.com/" target="_blank" rel="noreferrer">Scoular</a>,
+                an agriculture logistics compnay. We were assigned the task of streamlining the communication between Scoular's employees and it's customers by developing
+                an intuative web application. To do this, we made a PowerPages application where customers could input their desired delivery schedule and easily recieve
+                feedback from Scoular instead of constantly having to text, email, or call Scoular employees to confirm delivery changes.
+              </p>
+              <p>
+                Additionally, my group wrote an honors thesis regarding our project and I will link that when it becomes publically available. 
+              </p>
+            </div>
+            <div className="21-vision">
+              <h2><a href="https://github.com/benjaminkcook/21Vision" target="_blank" rel="noreferrer">21 Vision</a> - <a href="https://unlcornhacks.com/" target="_blank" rel="noreferrer">CornHacks</a></h2>
+              <p>
+                The prompt for this year's projects was "Beat the Odds". To fulfil this prompt, we wanted to create a camera extension that could be used to "count cards" at a blackjack table.
+                We developed a machine learning model using <a href="https://www.v7labs.com/blog/yolo-object-detection" target="_blank" rel="noreferrer">Yolo</a> that could recognize each individual card when shown to a camera. We had the "count" follow standard card-counting rules and the
+                running count was updated based on the cards shown on the table. (INSERT PICTURE OF WORKING DEMO)
+              </p>
+            </div>
           </div>
         </div>
       </Box>
