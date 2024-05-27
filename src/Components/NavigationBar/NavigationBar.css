@@ -18,10 +18,18 @@
   align-items: left;
 }
 
+#name-link {
+  color: white;
+}
+
+#name-link:hover {
+  cursor: pointer
+}
+
 .toolbar {
   display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;
+  justify-content: space-evenly;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,3 +1,8 @@
 .left-family-and-friends {
   flex:1;
 }
+
+.family-and-friends-heading {
+  font-size: 2.5em;
+  text-align: center;
+}
