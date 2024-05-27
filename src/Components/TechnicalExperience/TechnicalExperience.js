@@ -52,8 +52,9 @@ function TechnicalExperience() {
               <h2 id="21-vision-heading"><a href="https://github.com/benjaminkcook/21Vision" target="_blank" rel="noreferrer">21 Vision</a> - <a href="https://unlcornhacks.com/" target="_blank" rel="noreferrer">CornHacks</a></h2>
               <p>
                 The prompt for this year's projects was "Beat the Odds". To fulfil this prompt, we wanted to create a camera extension that could be used to "count cards" at a blackjack table.
-                We developed a machine learning model using <a href="https://www.v7labs.com/blog/yolo-object-detection" target="_blank" rel="noreferrer">Yolo</a> that could recognize each individual card when shown to a camera. We had the "count" follow standard card-counting rules and the
-                running count was updated based on the cards shown on the table. (INSERT PICTURE OF WORKING DEMO)
+                We developed a machine learning model using <a href="https://www.v7labs.com/blog/yolo-object-detection" target="_blank" rel="noreferrer">Yolo</a> and <a href="https://universe.roboflow.com/" target="_blank" rel="noreferrer">Roboflow</a> that
+                could recognize each individual card when shown to a camera.
+                We had the "count" follow standard card-counting rules and the running count was updated based on the cards shown on the table. (INSERT PICTURE OF WORKING DEMO)
               </p>
             </div>
           </div>
