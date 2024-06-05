@@ -32,9 +32,9 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 628px) {
   .home-content {
-    margin-top: 25px; /* Adjust this value for smaller screens */
+    margin-top: 25px;
   }
 }
 

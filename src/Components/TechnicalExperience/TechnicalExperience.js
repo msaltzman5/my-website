@@ -16,7 +16,7 @@ function TechnicalExperience() {
             <h2>MyRacePass</h2>
             <p>
               I just finished my internship at <a href="https://www.myracepass.com/" target="_blank" rel="noreferrer">MyRacePass</a>, where I
-              was a software developer intern. I really enjoyed working there and I am so appreciative of the opportunity they gave me.
+              was a Software Developer Intern. I really enjoyed working there and I am so appreciative of the opportunity they gave me.
               My main priorities included maintaining the code base, researching and developing new features, and overall contributing to the
               team where ever they needed me. My favorite projects I worked on where implementing a feature for customers to text their tickets
               to their phone number and creating a V1 of <a href="https://www.myracepass.com/latest-news/article/152609/myracepass-changes-the-game-again-with-mrp-audio" target="_blank" rel="noreferrer">MRP Audio</a>.
@@ -25,10 +25,11 @@ function TechnicalExperience() {
           <div className="hyland-software-content">
             <h2>Hyland Software</h2>
             <p>
-              My first internship was with <a href="https://www.hyland.com/en" target="_blank" rel="noreferrer">Hyland Software</a>. They are a company that makes enterprise
-              management software for various different types of companies, such as healthcare, insurance, or government contractors. Here,
+              My first internship was with <a href="https://www.hyland.com/en" target="_blank" rel="noreferrer">Hyland Software</a> where I was 
+              Cloud Support Analyst Intern. Hyland makes enterprise
+              management software on the cloud for various different types of companies, such as healthcare, insurance, or government contractors. Here,
               me and the other interns monitored an internal-facing application where we found solutions for issues our
-              clients were having. If bugs were found or the issue needed to be escalated, we would pass our ticket on to the full-time employees.
+              clients were having. If bugs were found or the issue needed to be escalated, we would pass our ticket on to the full-time analysts.
             </p>
           </div>
           <div className="projects-content">
@@ -51,7 +52,7 @@ function TechnicalExperience() {
             <div id="21-vision" className="21-vision">
               <h2 id="21-vision-heading"><a href="https://github.com/benjaminkcook/21Vision" target="_blank" rel="noreferrer">21 Vision</a> - <a href="https://unlcornhacks.com/" target="_blank" rel="noreferrer">CornHacks</a></h2>
               <p>
-                The prompt for this year's projects was "Beat the Odds". To fulfil this prompt, we wanted to create a camera extension that could be used to "count cards" at a blackjack table.
+                The prompt for 2024 was "Beat the Odds". To fulfil this prompt, we wanted to create a camera extension that could be used to "count cards" at a blackjack table.
                 We developed a machine learning model using <a href="https://www.v7labs.com/blog/yolo-object-detection" target="_blank" rel="noreferrer">Yolo</a> and <a href="https://universe.roboflow.com/" target="_blank" rel="noreferrer">Roboflow</a> that
                 could recognize each individual card when shown to a camera.
                 We had the "count" follow standard card-counting rules and the running count was updated based on the cards shown on the table. (INSERT PICTURE OF WORKING DEMO)
