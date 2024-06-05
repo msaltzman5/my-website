@@ -1,0 +1,16 @@
+.left-hobbies {
+  flex:1;
+}
+
+.hobbies-heading {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.coding-content a {
+  text-decoration: underline;
+}
+
+.coding-content a:hover {
+  cursor: pointer
+}

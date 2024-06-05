@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+#App {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -42,5 +48,9 @@
 }
 
 p {
-  text-align: center;
+  text-align: left;
+}
+
+a {
+  color: blue;
 }
