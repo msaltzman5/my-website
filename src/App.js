@@ -11,12 +11,11 @@ import FamilyAndFriends from './Components/FamilyAndFriends/FamilyAndFriends';
 import Valentine from './Components/Valentine/Valentine';
 
 export function debugging() {
-  let p = []
+  let p = [];
   for(let i = 0; i<30; i++) {
-    p.push(<p>p {i+1}</p>)
+    p.push(<p>p {i+1}</p>);
   }
-  
-  return p
+  return p;
 }
 
 function App() {
