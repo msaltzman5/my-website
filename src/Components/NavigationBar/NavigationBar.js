@@ -9,7 +9,7 @@ export default function NavigationBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed">
-        <Toolbar classname="toolbar" sx={{ background: green }}>
+        <Toolbar className="toolbar" sx={{ background: green }}>
           <div className="name-link">
             <ScrollLink id="name-link" to="home" smooth={true} duration={1000} offset={-75}>
               Malcolm Saltzman

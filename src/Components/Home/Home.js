@@ -1,12 +1,10 @@
 // import {debugging} from '../../App.js';
 
 import "./Home.css";
-import Me from '../../Data/Me.jpg';
+import Me from '../../Data/Me2.jpg';
 import Box from '@mui/material/Box';
-// import Paper from '@mui/material/Paper';
 
 function Home() {
-
   return (
     <div id='home' className='home-content'>
       <Box id="home-box" sx={{ p: 2, borderRadius: 4, bgcolor: '#D3D3D3', display: "flex" }}>
