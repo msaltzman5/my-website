@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+.technical-experience-content {
+  display: flex;
+  background-color: red;
+}
+
 .logo {
   width: 15vw;
   height: auto;

@@ -5,8 +5,8 @@ import { Link as ScrollLink } from "react-scroll"
 
 function Hobbies() {
   return (
-    <div id='hobbies' className='hobbies-content'>
-      <Box id="hobbies-box" sx={{ p: 2, borderRadius: 4, bgcolor: '#8AE4EF', display: "flex" }}>
+    <div id='hobbies' className='content hobbies-content'>
+      {/* <Box id="hobbies-box" sx={{ p: 2, borderRadius: 4, bgcolor: '#8AE4EF', display: "flex" }}> */}
         <div className="left-hobbies">
           <h1 className="hobbies-heading">Hobbies</h1>
           <p>
@@ -44,7 +44,7 @@ function Hobbies() {
             </p>
           </div>
         </div>
-      </Box>
+      {/* </Box> */}
     </div>
   )
 }

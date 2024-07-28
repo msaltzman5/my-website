@@ -7,8 +7,8 @@ import scoularlogo from '../../Data/scoular-logo.avif'
 
 function TechnicalExperience() {
   return (
-    <div id='technical-experience' className='technical-experience-content'>
-      <Box id="technical-experience-box" sx={{ p: 2, borderRadius: 4, bgcolor: '#FFC1C3', display: "flex" }}>
+    <div id='technical-experience' className='content technical-experience-content'>
+      {/* <Box id="technical-experience-box" sx={{ p: 2, borderRadius: 4, bgcolor: '#FFC1C3', display: "flex" }}> */}
         <div className="left-tech">
           <h1 className="technical-experience-heading">Technical Experience</h1>
           <h1 className="job-experience-heading">Job Experience</h1>
@@ -78,10 +78,7 @@ function TechnicalExperience() {
             </div>
           </div>
         </div>
-        {/* <div className="right-tech">
-          <img src={mrplogo} alt="Sorry, I'm not loading" className="mrplogo"/>
-        </div> */}
-      </Box>
+      {/* </Box> */}
     </div>
   );
 }

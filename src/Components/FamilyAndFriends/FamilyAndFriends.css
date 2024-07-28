@@ -6,3 +6,8 @@
   font-size: 2.5em;
   text-align: center;
 }
+
+.family-and-friends-content {
+  display: flex;
+  background-color: blueviolet;
+}

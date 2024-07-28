@@ -3,6 +3,11 @@
     height: 300px;
 }
 
+.home-content {
+    display: flex;
+    background-color: lightgray;
+}
+
 .left-about-me {
     flex:1;
 }

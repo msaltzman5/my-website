@@ -3,10 +3,10 @@ import Box from '@mui/material/Box';
 
 function FamilyAndFriends() {
   return (
-    <div id='family-and-friends' className='family-and-friends-content'>
-      <Box id="family-and-friends-box" sx={{ p: 2, borderRadius: 4, bgcolor: '#DFABFD', display: "flex" }}>
+    <div id='family-and-friends' className='content family-and-friends-content'>
+      {/* <Box id="family-and-friends-box" sx={{ p: 2, borderRadius: 4, bgcolor: '#DFABFD', display: "flex" }}> */}
         <div className="left-family-and-friends">
-          <h1 className="family-and-friends-heading">Family and Friends</h1>
+          <h1 className="family-and-friends-heading">Family & Friends</h1>
           <div className="family-content">
             <h1>Family</h1>
             <p>
@@ -27,13 +27,13 @@ function FamilyAndFriends() {
             <h1>Bowling Club</h1>
             <p>
               This is a team picture of the bowling club I'm involved in at UNL. I picked up bowling just before starting college
-              and the members at the time we're super inviting to me. I make it my goal to be inviting as possible and conduct the
+              and the members at the time were super inviting to me. I make it my goal to be inviting as possible and conduct the
               duties of the officer positions I have been elected to. We end up spending a lot of time together so it's great that
               everyone is super nice and all aiming towards the same goal: to win tournements.
             </p>
           </div>
         </div>
-      </Box>
+      {/* </Box> */}
     </div>
   )
 }

@@ -6,20 +6,19 @@ import Box from '@mui/material/Box';
 
 function Home() {
   return (
-    <div id='home' className='home-content'>
-      <Box id="home-box" sx={{ p: 2, borderRadius: 4, bgcolor: '#D3D3D3', display: "flex" }}>
+    <div id='home' className='content home-content'>
+      {/* <Box id="home-box" sx={{ p: 2, borderRadius: 4, bgcolor: '#D3D3D3', display: "flex" }}> */}
         <div className="left-about-me">
           <h1 className="about-me">About Me</h1>
           <p>
-            Hi! My name is Malcolm Saltzman and I'm a Computer Science major and
-            a Business minor at the University of 
-            Nebraska-Lincoln. I built this website to improve my technical skills
-            and document what I have going on in my life. To preface, I consider myself
-            a "backend" developer, so I am way out of my element creating this.
+            Hi! My name is Malcolm Saltzman and I'm a student at the University of Nebraska-Lincoln.
+            I'm majoring in Computer Science and minoring in Business. I built this website to improve
+            my technical skills and document what I have going on in my life. To preface, I'm mostly
+            a "backend" developer, so I'm aware of how &#127775;beautiful&#127775; this website is.
           </p>
           <p>
             When I'm not working on
-            school work, I love to playing sports (bowling, basketball, football, etc.),
+            school work, I love playing sports (bowling, basketball, football, etc.),
             working out, and hanging with my friends and family. Browse through this
             website to learn more about me!
           </p>
@@ -27,7 +26,7 @@ function Home() {
         <div className="right-about-me">
           <img src={Me} alt="Sorry, I'm not loading" className="me"/>
         </div>
-      </Box>
+      {/* </Box> */}
     </div>
   );
 }

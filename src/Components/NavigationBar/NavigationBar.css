@@ -1,21 +1,16 @@
 .toolbar {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .navigation-bar-links {
     display: flex;
-    justify-content: space-between;
-    /* margin: 0 auto; */
-    align-items: right;
-    /* width: 45% */
+    align-items: center;
 }
   
 .name-link {
   display: flex;
-  margin: 0 auto;
-  width: 50%;
-  align-items: left;
+  align-items: center;
 }
 
 #name-link {
@@ -26,20 +21,10 @@
   cursor: pointer
 }
 
-.toolbar {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0 auto;
-}
-
 @media screen and (max-width: 628px) {
   .home-content {
     margin-top: 25px;
   }
-}
-
-.content {
-  padding-top: 70px; /* Adjust this value according to your AppBar's height */
 }
 
 .navigation-bar-links a {
