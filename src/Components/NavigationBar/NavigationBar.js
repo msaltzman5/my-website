@@ -27,6 +27,9 @@ export default function NavigationBar() {
             <ScrollLink to="family-and-friends" smooth={true} duration={1000} offset={-60}>
               <Button color="inherit" underline="none" sx={{ "&:hover": { color: "orange" } }} scroll="smooth">Family & Friends</Button>
             </ScrollLink>
+            <ScrollLink to="footer" smooth={true} duration={1000} offset={-60}>
+              <Button color="inherit" underline="none" sx={{ "&:hover": { color: "orange" } }} scroll="smooth">Contact</Button>
+            </ScrollLink>
           </div>
         </Toolbar>
       </AppBar>

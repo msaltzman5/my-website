@@ -1,7 +1,7 @@
 // import {debugging} from '../../App.js';
 
 import "./Home.css";
-import Me from '../../Data/Me2.jpg';
+import Me from '../../Data/Home/Me2.jpg';
 // import Box from '@mui/material/Box';
 
 function Home() {
@@ -20,9 +20,7 @@ function Home() {
           <p>
             Here is an quick speel about myself: When I'm not working on
             school work, I love playing sports (bowling, basketball, tennis, football, etc.),
-            working out, and hanging with my friends and family. In the future, I want to work as full-time
-            software engineer, travel the world, and marry my girlfriend of 5 years (pictured - ADD LINK HERE).
-             
+            working out, and hanging with my friends and family.             
           </p>
           <p>
             Browse through this website to learn more about me!

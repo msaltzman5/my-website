@@ -1,6 +1,6 @@
 import "./Valentine.css";
 // import Button from 'react-bootstrap/Button';
-import beargivingheart from '../../Data/bear-giving-heart.gif';
+import beargivingheart from '../../Data/Valentine/bear-giving-heart.gif';
 
 
 

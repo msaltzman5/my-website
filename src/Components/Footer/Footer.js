@@ -5,7 +5,7 @@ import copyicon from '../../Data/Icons/copy-30.png';
 
 function Footer() {
   return (
-    <footer className="content footer-content">
+    <footer id='footer' className="content footer-content">
       <p>Malcolm Saltzman's website</p>
       <div className="social-links">
         <p>
