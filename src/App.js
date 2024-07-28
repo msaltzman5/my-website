@@ -2,21 +2,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 // Importing components
-// import Name from './Components/Name/Name';
 import NavigationBar from './Components/NavigationBar/NavigationBar';
 import Home from './Components/Home/Home';
 import TechnicalExperience from './Components/TechnicalExperience/TechnicalExperience';
 import Extracurriculars from './Components/Hobbies/Hobbies';
 import FamilyAndFriends from './Components/FamilyAndFriends/FamilyAndFriends';
+import Footer from './Components/Footer/Footer';
 import Valentine from './Components/Valentine/Valentine';
-
-export function debugging() {
-  let p = [];
-  for(let i = 0; i<30; i++) {
-    p.push(<p>p {i+1}</p>);
-  }
-  return p;
-}
 
 function App() {
   return (
@@ -24,8 +16,8 @@ function App() {
       {/* <Name/> */}
       <BrowserRouter>
         <Routes>
-          <Route path="/" exact Component={ContentWrapper}/>
-          <Route path="/valentine" element={<Valentine/>}/>
+          <Route path="/" exact Component={ContentWrapper} />
+          <Route path="/valentine" element={<Valentine />} />
         </Routes>
       </BrowserRouter>
     </div>
@@ -35,16 +27,16 @@ function App() {
 const ContentWrapper = () => {
   return (
     <div>
-      <NavigationBar/>
-      <div className="content">
-        <Home/>
-        <TechnicalExperience/>
-        <Extracurriculars/>
-        <FamilyAndFriends/>
+      <NavigationBar />
+      <div className="main-content">
+        <Home />
+        <TechnicalExperience />
+        <Extracurriculars />
+        <FamilyAndFriends />
+        <Footer />
       </div>
     </div>
   );
 }
-
 
 export default App;
