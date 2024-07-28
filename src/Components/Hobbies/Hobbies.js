@@ -1,6 +1,6 @@
 //import { debugging } from '../../App.js'
 import "./Hobbies.css";
-import Box from '@mui/material/Box';
+// import Box from '@mui/material/Box';
 import { Link as ScrollLink } from "react-scroll"
 
 function Hobbies() {

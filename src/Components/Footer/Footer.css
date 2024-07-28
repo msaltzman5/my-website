@@ -1,4 +1,48 @@
-.footer {
+.footer-content {
   display: flex;
-  background-color: lightslategrey;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(178, 190, 204);
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+.social-links img:hover {
+  cursor: pointer
+}
+
+#copy-icon {
+  height: 20px;
+  width: 20px;
+  padding: 5px 0px 0px 5px;
+}
+
+.copy-popup {
+    visibility: hidden;
+    min-width: 200px;
+    margin-left: -100px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.copy-popup.show {
+  visibility: visible;
+  opacity: 1;
 }

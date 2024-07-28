@@ -21,11 +21,11 @@
   cursor: pointer
 }
 
-@media screen and (max-width: 628px) {
+/* @media screen and (max-width: 628px) {
   .home-content {
     margin-top: 25px;
   }
-}
+} */
 
 .navigation-bar-links a {
   color: white;
