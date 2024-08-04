@@ -8,6 +8,15 @@
   text-align: center;
 }
 
+.hobbies-info {
+  display: flex;
+}
+
+.hobbies-info-left {
+  display: flex;
+  flex-direction: column;
+}
+
 .coding-content a {
   text-decoration: underline;
 }
@@ -29,4 +38,6 @@
 .right-content {
   flex-shrink: 0;
   margin: 0px 20px 0px 20px;
+  display: flex;
+  align-items: center;
 }

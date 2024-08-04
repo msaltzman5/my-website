@@ -15,4 +15,6 @@
 .right-about-me {
     flex-shrink: 0; /* Prevents it from shrinking */
     margin-left: 20px; /* Adjust margin as needed */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
 }
