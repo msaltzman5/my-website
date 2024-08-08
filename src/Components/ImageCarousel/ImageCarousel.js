@@ -25,33 +25,35 @@ const ImageCarousel = ({ images }) => {
   };
 
   const handleImageLoad = () => {
-    setImageLoading(false); // Set loading state to false when image has loaded
+    setImageLoading(false);
   };
 
   const getFileName = (filePath) => {
     return filePath.split('/').pop()
-      .replace(/\.[a-f0-9]{8,}\..*/, '')
+      .replace(/\.[a-f0-9]{8,}\..*/, '') // get rid of hex code and .jpg
+      // next three space out file names and numbers to display correctly
       .replace(/([a-z])([A-Z])/g, '$1 $2')
       .replace(/([0-9])([A-Z])/g, '$1 $2')
       .replace(/([a-zA-Z])([0-9])/g, '$1 $2');
   };
 
   return (
-    <div className="image-carousel">
-      {/* TODO: add loading image for seamless transfer */}
-      {imageLoading && (
-        <p className='loading-text'>Loading...</p>
-      )}
-      <a href={images[currentIndex]} target="_blank" rel="noopener noreferrer">
-        <img
-          src={images[currentIndex]}
-          alt={`Image ${currentIndex + 1}`}
-          title={getFileName(images[currentIndex])}
-          onLoad={handleImageLoad}
-          style={{ display: imageLoading ? 'none' : 'block' }}
-          className="carousel-image"
-        />
-      </a>
+    <div className='image-carousel-wrapper'>
+      <div className="image-carousel">
+        {imageLoading && (
+          <p className='loading-text'>Loading...</p>
+        )}
+        <a href={images[currentIndex]} target="_blank" rel="noopener noreferrer">
+          <img
+            src={images[currentIndex]}
+            alt={`Image ${currentIndex + 1}`}
+            title={getFileName(images[currentIndex])}
+            onLoad={handleImageLoad}
+            style={{ display: imageLoading ? 'none' : 'block' }}
+            className="carousel-image"
+          />
+        </a>
+      </div>
       <div className="carousel-controls">
         <img src={leftarrow} alt='not loading' onClick={previousImage} />
         <img src={rightarrow} alt='not loading' onClick={nextImage} />
