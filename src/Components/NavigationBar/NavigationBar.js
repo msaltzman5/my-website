@@ -1,7 +1,4 @@
-//import { Link as RouterLink } from 'react-router-dom';
-// import { useEffect, useState } from "react";
 import "./NavigationBar.css";
-import { Box, AppBar, Toolbar, Button } from "@mui/material";
 import { Link as ScrollLink } from "react-scroll"
 
 export default function NavigationBar() {
