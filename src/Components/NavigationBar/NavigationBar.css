@@ -1,14 +1,38 @@
-.toolbar {
+.navigation-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
   display: flex;
   justify-content: space-between;
+  z-index: 1; /* So image carosel doesn't overlap it*/
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  cursor: pointer;
+}
+
+.name-link {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .navigation-bar-links {
-    display: flex;
-    align-items: center;
-}
-  
-.name-link {
   display: flex;
   align-items: center;
 }
@@ -19,14 +43,4 @@
 
 #name-link:hover {
   cursor: pointer
-}
-
-/* @media screen and (max-width: 628px) {
-  .home-content {
-    margin-top: 25px;
-  }
-} */
-
-.navigation-bar-links a {
-  color: white;
 }
