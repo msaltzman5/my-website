@@ -51,14 +51,28 @@ a {
 }
 
 .content {
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px;
 }
 
 .main-content {
   padding-top: 63px; /* for navigation bar spacing at the top */
+  display: flex;
 }
 
 .logo {
   width: 15vw;
   height: auto;
+}
+
+.nav-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
 }
